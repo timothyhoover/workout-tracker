@@ -2,8 +2,6 @@
 </template>
 
 <script setup>
-  const test = false
-  console.log(test)
   // Create data
 
   // Add exercise
