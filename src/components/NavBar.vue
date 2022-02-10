@@ -5,7 +5,7 @@ header(class="bg-at-light-green text-white")
       img(class="w-14" src="../assets/images/dumbbell-light.png")
       h1(class="text-lg") Active Tracker
     ul(class="flex flex-1 justify-end gap-x-10")
-      router-link(v-if='user' class="cursor-pointer" :to="{ name: 'Home' }") Home
+      router-link(v-if='user' class="cursor-pointer" :to="{ name: 'Dashboard' }") Dashboard
       router-link(v-if='user' class="cursor-pointer" :to="{ name: 'Create' }") Create
       router-link(v-if='!user' class="cursor-pointer" :to="{ name: 'Register' }") Register
       router-link(v-if='!user' class="cursor-pointer" :to="{ name: 'Login' }") Login

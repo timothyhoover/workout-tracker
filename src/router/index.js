@@ -5,7 +5,7 @@ import {
 } from 'vue-router'
 
 import Create from '@/views/Create.vue'
-import Home from '@/views/Home.vue'
+import Dashboard from '@/views/Dashboard.vue'
 import Login from '@/views/Login.vue'
 import Register from '@/views/Register.vue'
 import ViewWorkout from '@/views/ViewWorkout.vue'
@@ -13,11 +13,11 @@ import { supabase } from '@/supabase/init'
 
 const routes = [
   {
-    name: 'Home',
-    path: '/home',
-    component: Home,
+    name: 'Dashboard',
+    path: '/dashboard',
+    component: Dashboard,
     meta: {
-      title: 'Home',
+      title: 'Dashboard',
       auth: true,
     },
   },

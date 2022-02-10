@@ -165,7 +165,7 @@ div(class="max-w-screen-sm mx-auto px-4 py-10")
         .delete()
         .eq('id', currentId)
       if (error) throw error
-      router.push({ name: 'Home' })
+      router.push({ name: 'Dashboard' })
     } catch (e) {
       errorMsg.value = `Error: ${e.message}`
       setTimeout(() => {
